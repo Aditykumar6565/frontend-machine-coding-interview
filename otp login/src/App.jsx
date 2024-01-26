@@ -1,10 +1,11 @@
-
+import React from 'react'
 import './App.css'
+import PhoneOtpForm from './components/PhoneOtpForm'
 
 function App() {
   return <div className='App'>
     <h1>Login with phone</h1>
-    <PhoneOtpLogin/>
+    <PhoneOtpForm/>
   
   </div>
 }
